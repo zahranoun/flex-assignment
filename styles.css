@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
+  gap: 20px;
 }
 
 .emoji {
@@ -24,4 +25,10 @@ body {
 
 .icon {
   font-size: 4rem;
+}
+
+.container {
+  display: grid;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
