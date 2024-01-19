@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
-  gap: px;
+  margin: 40px;
 }
 
 .emoji {
@@ -13,7 +13,6 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
-  grid-templat
 }
 
 .emoji a {
@@ -25,7 +24,8 @@ body {
 }
 
 .emoji span {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
@@ -37,6 +37,5 @@ body {
   flex-wrap: wrap;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  align-items: center;
-  text-align: center;
+  gap: 20px;
 }
