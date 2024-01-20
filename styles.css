@@ -15,6 +15,11 @@ body {
   border-bottom: 2px solid #ccc;
 }
 
+.emoji p {
+  display: flex;
+  padding-bottom: 30px;
+}
+
 .emoji a {
   text-decoration: none;
   background-color: #781baa;
@@ -30,6 +35,7 @@ body {
 
 .icon {
   font-size: 4rem;
+  display: inline-flex;
 }
 
 .emojis {
