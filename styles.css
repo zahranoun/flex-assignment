@@ -1,18 +1,22 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
-  margin: 40px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .emoji {
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .emoji h2 {
   margin: 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .emoji p {
@@ -36,12 +40,12 @@ body {
 .icon {
   font-size: 4rem;
   display: inline-flex;
+  order: -1;
+  justify-content: center;
 }
 
 .emojis {
   display: grid;
-  flex-wrap: wrap;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  gap: 20px;
+  gap: 16px;
 }
